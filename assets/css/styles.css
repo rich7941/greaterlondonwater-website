@@ -580,7 +580,7 @@ button:hover {
 }
 
 .footer-section a:hover {
-  color: var(--accent-color);
+  color: #ffffff;
   text-decoration: underline;
   text-underline-offset: 2px;
 }
@@ -622,7 +622,7 @@ button:hover {
 }
 
 .footer-bottom a:hover {
-  color: var(--accent-color);
+  color: #ffffff;
   text-decoration: underline;
   text-underline-offset: 2px;
 }
