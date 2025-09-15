@@ -75,7 +75,7 @@ a {
 }
 
 a:hover {
-  color: var(--accent-color);
+  color: #ffffff;
 }
 
 /* Header */
@@ -134,14 +134,14 @@ body {
 }
 
 .nav-menu li a {
-  color: var(--text-color);
+  color: white;
   font-weight: 500;
   text-decoration: none;
   transition: color var(--transition-speed) ease;
 }
 
 .nav-menu li a:hover {
-  color: var(--accent-color);
+  color: #ffffff;
 }
 
 .phone-number a {
@@ -641,7 +641,7 @@ button:hover {
 }
 
 .social-icons a:hover {
-  color: var(--accent-color);
+  color: #ffffff;
 }
 
 /* About Page */
