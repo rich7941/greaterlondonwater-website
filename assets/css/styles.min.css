@@ -75,7 +75,7 @@ a {
 }
 
 a:hover {
-  color: var(--accent-color);
+  color: #ffffff;
 }
 
 /* Header */
@@ -141,7 +141,7 @@ body {
 }
 
 .nav-menu li a:hover {
-  color: var(--accent-color);
+  color: #ffffff;
 }
 
 .phone-number a {
@@ -580,7 +580,7 @@ button:hover {
 }
 
 .footer-section a:hover {
-  color: var(--accent-color);
+  color: #ffffff;
   text-decoration: underline;
   text-underline-offset: 2px;
 }
@@ -622,7 +622,7 @@ button:hover {
 }
 
 .footer-bottom a:hover {
-  color: var(--accent-color);
+  color: #ffffff;
   text-decoration: underline;
   text-underline-offset: 2px;
 }
@@ -641,7 +641,7 @@ button:hover {
 }
 
 .social-icons a:hover {
-  color: var(--accent-color);
+  color: #ffffff;
 }
 
 /* About Page */
