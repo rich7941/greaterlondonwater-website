@@ -156,7 +156,10 @@ body {
   transition: background-color var(--transition-speed) ease;
 }
 
-.phone-number a:hover {
+/* Override inline styles on location pages */
+body .phone-number a:hover,
+.site-header .phone-number a:hover,
+header .phone-number a:hover {
   background-color: var(--primary-color) !important; /* Darker accent color for hover - override location page inline styles */
   color: white !important;
 }
