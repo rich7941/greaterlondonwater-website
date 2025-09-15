@@ -423,7 +423,7 @@ img[src*="pool-fence-new.jpg"] {
 }
 
 .learn-more:hover {
-  color: var(--accent-color); /* GLW Teal for hover */
+  color: #ffffff; /* White for WCAG AA compliance */
 }
 
 /* Location Section */
