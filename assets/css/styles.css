@@ -75,7 +75,7 @@ a {
 }
 
 a:hover {
-  color: #ffffff;
+  color: var(--accent-color);
 }
 
 /* Header */
@@ -141,7 +141,7 @@ body {
 }
 
 .nav-menu li a:hover {
-  color: #ffffff;
+  color: var(--accent-color);
 }
 
 .phone-number a {
@@ -423,7 +423,7 @@ img[src*="pool-fence-new.jpg"] {
 }
 
 .learn-more:hover {
-  color: #ffffff; /* White for WCAG AA compliance */
+  color: var(--accent-color); /* GLW Teal for hover */
 }
 
 /* Location Section */
@@ -580,7 +580,7 @@ button:hover {
 }
 
 .footer-section a:hover {
-  color: #ffffff;
+  color: var(--accent-color);
   text-decoration: underline;
   text-underline-offset: 2px;
 }
@@ -622,7 +622,7 @@ button:hover {
 }
 
 .footer-bottom a:hover {
-  color: #ffffff;
+  color: var(--accent-color);
   text-decoration: underline;
   text-underline-offset: 2px;
 }
@@ -641,7 +641,7 @@ button:hover {
 }
 
 .social-icons a:hover {
-  color: #ffffff;
+  color: var(--accent-color);
 }
 
 /* About Page */
