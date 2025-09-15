@@ -1932,3 +1932,20 @@ section.cta.bg-orange,
   color: white !important;
   text-decoration: none;
 }/* Cache bust Mon Sep 15 01:04:06 EDT 2025 */
+
+/* CRITICAL: Override inline styles on location pages - must be at end of file */
+.phone-number a[href*="tel"]:hover,
+.phone-number a[href*="0207"]:hover,
+div.phone-number a:hover,
+.site-header .phone-number a:hover,
+header .site-header .phone-number a:hover {
+  background-color: var(--primary-color) !important;
+  color: white !important;
+}
+
+/* Additional specificity for stubborn inline styles */
+[style*="background-color"] .phone-number a:hover,
+.phone-number a[style]:hover {
+  background-color: var(--primary-color) !important;
+  color: white !important;
+}
