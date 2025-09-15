@@ -91,13 +91,13 @@
 }
 
 .state-group h4 {
-  color: var(--secondary-color);
+  color: #ffffff;
   margin: 0 0 1rem 0;
   font-size: 1.2rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  border-bottom: 2px solid rgba(162, 86, 40, 0.3);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
   padding-bottom: 0.5rem;
 }
 
