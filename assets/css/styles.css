@@ -157,8 +157,8 @@ body {
 }
 
 .phone-number a:hover {
-  background-color: var(--primary-color); /* Darker accent color for hover */
-  color: white;
+  background-color: var(--primary-color) !important; /* Darker accent color for hover - override location page inline styles */
+  color: white !important;
 }
 
 /* Mobile Navigation */
