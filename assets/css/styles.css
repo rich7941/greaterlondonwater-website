@@ -263,7 +263,7 @@ header .phone-number a:hover {
 
 .hero.locations-hero {
   background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/images/greater-london-water-locations-hero.png');
-  background-position: left center;
+  background-position: center left;
 }
 
 .hero.about-hero {
@@ -311,7 +311,7 @@ header .phone-number a:hover {
 
 .hero.locations-hero {
   background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/images/greater-london-water-locations-hero.png');
-  background-position: left center;
+  background-position: center left;
 }
 
 .hero.about-hero {
