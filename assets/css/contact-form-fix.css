@@ -2,14 +2,23 @@
 
 /* Ensure consistent form field styling */
 .contact-form .form-group {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.25rem;
 }
 
 .contact-form .form-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+/* Specific spacing adjustments for consistent gaps */
+.contact-form .form-row:first-of-type {
+  margin-bottom: 1.25rem;
+}
+
+.contact-form .form-group:not(.form-row .form-group) {
+  margin-bottom: 1.25rem;
 }
 
 .contact-form .form-group label {
@@ -69,6 +78,18 @@
 .contact-form .submit-btn:hover,
 .contact-form button[type="submit"]:hover {
   background-color: var(--primary-color);
+}
+
+/* Override any existing form spacing to ensure consistency */
+.contact-form form > .form-row,
+.contact-form form > .form-group {
+  margin-bottom: 1.25rem !important;
+}
+
+/* Ensure the last form element doesn't have bottom margin */
+.contact-form form > .form-row:last-of-type,
+.contact-form form > .form-group:last-of-type {
+  margin-bottom: 0 !important;
 }
 
 /* Mobile responsive adjustments */
