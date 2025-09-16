@@ -261,6 +261,11 @@ header .phone-number a:hover {
   background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/images/pool-fence-resort.jpg');
 }
 
+.hero.locations-hero {
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/images/greater-london-water-locations-hero.png');
+  background-position: center center;
+}
+
 .hero.trex-fence-hero {
   background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/images/brown-trex-fence.jpg');
 }
@@ -297,6 +302,11 @@ header .phone-number a:hover {
 
 .hero.pool-fence-hero {
   background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/images/pool-fence-resort.jpg');
+}
+
+.hero.locations-hero {
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/images/greater-london-water-locations-hero.png');
+  background-position: center center;
 }
 
 .hero h1 {
