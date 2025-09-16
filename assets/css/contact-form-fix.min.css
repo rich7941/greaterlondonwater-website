@@ -1,0 +1,131 @@
+/* Contact Form Padding and Alignment Fix - High Specificity */
+
+/* Force consistent form field spacing with high specificity */
+.contact-section .contact-form .form-group {
+  margin-bottom: 1.25rem !important;
+}
+
+.contact-section .contact-form .form-row {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: 1rem !important;
+  margin-bottom: 1.25rem !important;
+}
+
+/* Override any existing form spacing to ensure consistency */
+.contact-section .contact-form form > .form-row,
+.contact-section .contact-form form > .form-group {
+  margin-bottom: 1.25rem !important;
+}
+
+/* Ensure the last form element doesn't have bottom margin */
+.contact-section .contact-form form > .form-row:last-of-type,
+.contact-section .contact-form form > .form-group:last-of-type {
+  margin-bottom: 0 !important;
+}
+
+/* Form field styling with high specificity */
+.contact-section .contact-form .form-group label {
+  display: block !important;
+  margin-bottom: 0.5rem !important;
+  font-weight: 600 !important;
+  color: var(--primary-color) !important;
+}
+
+/* Fix uneven padding on form inputs with high specificity */
+.contact-section .contact-form .form-group input,
+.contact-section .contact-form .form-group select,
+.contact-section .contact-form .form-group textarea {
+  width: 100% !important;
+  padding: 0.875rem !important;
+  border: 2px solid var(--border-color) !important;
+  border-radius: var(--border-radius-sm) !important;
+  font-size: 1rem !important;
+  font-family: var(--font-main) !important;
+  transition: border-color var(--transition-speed) ease !important;
+  background-color: white !important;
+  box-sizing: border-box !important;
+}
+
+/* Ensure consistent focus states */
+.contact-section .contact-form .form-group input:focus,
+.contact-section .contact-form .form-group select:focus,
+.contact-section .contact-form .form-group textarea:focus {
+  outline: none !important;
+  border-color: var(--accent-color) !important;
+  box-shadow: 0 0 0 3px rgba(11, 133, 122, 0.1) !important;
+}
+
+/* Fix textarea specific styling */
+.contact-section .contact-form .form-group textarea {
+  resize: vertical !important;
+  min-height: 120px !important;
+  line-height: 1.5 !important;
+}
+
+/* Ensure submit button has consistent styling */
+.contact-section .contact-form .submit-btn,
+.contact-section .contact-form button[type="submit"] {
+  width: 100% !important;
+  padding: 1rem 2rem !important;
+  font-size: 1.1rem !important;
+  font-weight: 600 !important;
+  margin-top: 1.5rem !important;
+  background-color: var(--accent-color) !important;
+  color: white !important;
+  border: none !important;
+  border-radius: var(--border-radius-sm) !important;
+  cursor: pointer !important;
+  transition: background-color var(--transition-speed) ease !important;
+}
+
+.contact-section .contact-form .submit-btn:hover,
+.contact-section .contact-form button[type="submit"]:hover {
+  background-color: var(--primary-color) !important;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+  .contact-section .contact-form .form-row {
+    grid-template-columns: 1fr !important;
+    gap: 0 !important;
+  }
+  
+  .contact-section .contact-form .form-group {
+    margin-bottom: 1.25rem !important;
+  }
+}
+
+/* Fix for placeholder text alignment */
+.contact-section .contact-form .form-group input::placeholder,
+.contact-section .contact-form .form-group textarea::placeholder {
+  color: #9ca3af !important;
+  opacity: 1 !important;
+}
+
+/* Ensure consistent height for select elements */
+.contact-section .contact-form .form-group select {
+  height: auto !important;
+  min-height: 3.125rem !important;
+}
+
+/* Ensure form container has proper spacing */
+.contact-section .contact-form {
+  background-color: var(--light-bg) !important;
+  padding: 2.5rem !important;
+  border-radius: var(--border-radius-md) !important;
+  box-shadow: var(--shadow-md) !important;
+}
+
+/* Fix for form validation states if needed */
+.contact-section .contact-form .form-group input:invalid,
+.contact-section .contact-form .form-group select:invalid,
+.contact-section .contact-form .form-group textarea:invalid {
+  border-color: #ef4444 !important;
+}
+
+.contact-section .contact-form .form-group input:valid,
+.contact-section .contact-form .form-group select:valid,
+.contact-section .contact-form .form-group textarea:valid {
+  border-color: var(--success-color) !important;
+}
