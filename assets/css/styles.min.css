@@ -205,7 +205,7 @@ header .phone-number a:hover {
   background-color: var(--light-bg);
   padding: 0 0 8rem 0;
   text-align: left;
-  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/images/water-main-reapirs-greater-london.png');
+  background-image: url('/assets/images/water-main-reapirs-greater-london.png');
   background-size: cover;
   background-position: center bottom;
   color: white;
@@ -238,7 +238,7 @@ header .phone-number a:hover {
 }
 
 .hero.hardwood-fence-hero {
-  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/images/water-main-reapirs-greater-london.png');
+  background-image: url('/assets/images/water-main-reapirs-greater-london.png');
 }
 
 .hero.pool-fence-hero {
