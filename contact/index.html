@@ -47,6 +47,7 @@
   <link rel="stylesheet" href="/assets/css/styles.min.css"/>
   <link rel="stylesheet" href="/assets/css/location-page-fix.min.css"/>
   <link rel="stylesheet" href="/assets/css/footer_locations_dropdown.min.css"/>
+  <link rel="stylesheet" href="/assets/css/contact-form-fix.css"/>
   
   <!-- Organization Contact Schema Markup -->
   <script type="application/ld+json">
@@ -209,20 +210,41 @@
                 <input type="text" id="name" name="name" required>
               </div>
               <div class="form-group">
-                <label for="email">Email Address *</label>
-                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="house-number">House number/name *</label>
+                <input type="text" id="house-number" name="house-number" placeholder="Please enter house number/name" required>
+              </div>
+              <div class="form-group">
+                <label for="street-address">Street Address *</label>
+                <input type="text" id="street-address" name="street-address" placeholder="Please enter street address" required>
               </div>
             </div>
 
             <div class="form-row">
               <div class="form-group">
-                <label for="phone">Phone Number *</label>
-                <input type="tel" id="phone" name="phone" required>
+                <label for="town">Town *</label>
+                <input type="text" id="town" name="town" placeholder="Please enter town name" required>
               </div>
               <div class="form-group">
-                <label for="location">Location *</label>
-                <input type="text" id="location" name="location" required>
+                <label for="county">County</label>
+                <input type="text" id="county" name="county" placeholder="Please enter county name">
               </div>
+            </div>
+
+            <div class="form-group">
+              <label for="postcode">Postcode *</label>
+              <input type="text" id="postcode" name="postcode" placeholder="Please enter postcode" required>
             </div>
 
             <div class="form-group">

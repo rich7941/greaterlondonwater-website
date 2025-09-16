@@ -1,0 +1,123 @@
+/* Contact Form Padding and Alignment Fix */
+
+/* Ensure consistent form field styling */
+.contact-form .form-group {
+  margin-bottom: 1.5rem;
+}
+
+.contact-form .form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact-form .form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+/* Fix uneven padding on form inputs */
+.contact-form .form-group input,
+.contact-form .form-group select,
+.contact-form .form-group textarea {
+  width: 100%;
+  padding: 0.875rem; /* Consistent padding for all fields */
+  border: 2px solid var(--border-color);
+  border-radius: var(--border-radius-sm);
+  font-size: 1rem;
+  font-family: var(--font-main);
+  transition: border-color var(--transition-speed) ease;
+  background-color: white;
+  box-sizing: border-box; /* Ensure padding is included in width calculation */
+}
+
+/* Ensure consistent focus states */
+.contact-form .form-group input:focus,
+.contact-form .form-group select:focus,
+.contact-form .form-group textarea:focus {
+  outline: none;
+  border-color: var(--accent-color);
+  box-shadow: 0 0 0 3px rgba(11, 133, 122, 0.1);
+}
+
+/* Fix textarea specific styling */
+.contact-form .form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+  line-height: 1.5;
+}
+
+/* Ensure submit button has consistent styling */
+.contact-form .submit-btn,
+.contact-form button[type="submit"] {
+  width: 100%;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  background-color: var(--accent-color);
+  color: white;
+  border: none;
+  border-radius: var(--border-radius-sm);
+  cursor: pointer;
+  transition: background-color var(--transition-speed) ease;
+}
+
+.contact-form .submit-btn:hover,
+.contact-form button[type="submit"]:hover {
+  background-color: var(--primary-color);
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+  .contact-form .form-row {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  
+  .contact-form .form-group {
+    margin-bottom: 1.25rem;
+  }
+}
+
+/* Fix for placeholder text alignment */
+.contact-form .form-group input::placeholder,
+.contact-form .form-group textarea::placeholder {
+  color: #9ca3af;
+  opacity: 1;
+}
+
+/* Ensure consistent height for select elements */
+.contact-form .form-group select {
+  height: auto;
+  min-height: 3.125rem; /* Match input height with padding */
+}
+
+/* Fix any margin/padding inconsistencies */
+.contact-form .form-group:last-child {
+  margin-bottom: 0;
+}
+
+/* Ensure form container has proper spacing */
+.contact-form {
+  background-color: var(--light-bg);
+  padding: 2.5rem;
+  border-radius: var(--border-radius-md);
+  box-shadow: var(--shadow-md);
+}
+
+/* Fix for form validation states if needed */
+.contact-form .form-group input:invalid,
+.contact-form .form-group select:invalid,
+.contact-form .form-group textarea:invalid {
+  border-color: #ef4444;
+}
+
+.contact-form .form-group input:valid,
+.contact-form .form-group select:valid,
+.contact-form .form-group textarea:valid {
+  border-color: var(--success-color);
+}
