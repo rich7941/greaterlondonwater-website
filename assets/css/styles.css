@@ -248,6 +248,10 @@ header .phone-number a:hover {
   background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/images/water-main-reapirs-greater-london.png');
 }
 
+.hero.reviews-hero {
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/images/greater-london-water-reviews.png');
+}
+
 .hero.pool-fence-hero {
   background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/images/pool-fence-resort.jpg');
 }
