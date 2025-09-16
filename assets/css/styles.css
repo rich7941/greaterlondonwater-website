@@ -270,6 +270,7 @@ header .phone-number a:hover {
 
 .hero.fence-types-hero {
   background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/images/water-pressure-hero.jpg');
+  background-position: center bottom;
 }
 
 .hero.guides-hero {
