@@ -260,6 +260,7 @@ header .phone-number a:hover {
 
 .hero.guides-hero {
   background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/images/aluminum-fence.jpg');
+  background-position: center top;
 }
 
 .hero.aluminum-fence-hero {
